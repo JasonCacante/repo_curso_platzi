@@ -1,8 +1,9 @@
 import param from param
 const test =param.param
-public updateDocument(document, TextDocument){
-    const documentDecoration = this.getDocumentDecorations(document);
-    if (documentDecoration){
-        documentDecoration.triggerUpdateDecoration();       
-    }
+updateDocument(document, TextDocument);
+const documentDecoration = getDocumentDecorations(document);
+if (documentDecoration){
+    documentDecoration.triggerUpdateDecoration();       
 }
+
+console.log("Hello World")
