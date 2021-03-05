@@ -5,4 +5,12 @@ const add = async function (a, b){
 }
 
 const result = await add(1221, 3)
-result 
+
+console.log('Jason is the best');
+for (let i = 0; i < per.lenght; i++) {
+    const element = per[i];
+    console.log(element);
+}
+
+
+
